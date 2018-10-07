@@ -14,6 +14,4 @@ def mainfn():
 inputs='excel1.xlsx'
 input_sheet = inputs.loc[inputs['particulars']=='input',reference].iloc[0]
 print input_sheet
-
-
 mainfn('excel1.xlsx','excel2.xlsx')
